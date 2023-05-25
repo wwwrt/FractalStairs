@@ -1,3 +1,10 @@
+let angle = 0;
+let scaleFactor = 0.67;
+let sideLength = 200;
+let numSquares = 10;
+let rotationSpeed = 0.1; 
+let squares = [];
+
 function setup() {
     createCanvas(800, 800);
     angleMode(DEGREES);
