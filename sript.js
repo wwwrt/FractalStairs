@@ -22,3 +22,10 @@ function setup() {
       squares[i].rotationAngle += rotationSpeed;
     }
   }
+
+  function drawFractalSquare(length) {
+    let halfLength = length / 2;
+    noFill();
+    stroke(0);
+    rect(-halfLength, -halfLength, length, length);
+  }
